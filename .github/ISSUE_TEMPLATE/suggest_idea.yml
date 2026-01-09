@@ -1,0 +1,16 @@
+name: Suggest an idea
+description: Propose an improvement, feature, or new application
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: What is your idea?
+      placeholder: Describe your idea clearly
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why is this useful?
+      placeholder: Explain the expected benefit or impact
